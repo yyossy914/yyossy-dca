@@ -1,12 +1,26 @@
+.tabs{
+    display: flex;
+    padding: 2vh 20vw;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+.tabs button{
+    background-color: lightgrey;
+    padding: 2vh;
+    width: 100%;
+}
+.tabs button:hover{
+    cursor: pointer;
+}
+
 .contact{
-    min-height: 100vh;
     color: #2D2D2D;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1vh;
-    padding: 10vh 2vw;
+    padding: 1vh 2vw;
 }
 .contact-text{
     text-align: center;
